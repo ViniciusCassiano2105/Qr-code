@@ -13,26 +13,21 @@
         body{
             background-color: hsl(0, 0%, 100%);
             font-family: 'Outfit', sans-serif;
+            margin: 0;
         }
 
         div{
             background-color:  hsl(212, 45%, 89%);
-            margin: 100px auto;
-            max-width: 1440px;
-            min-width: 245px;
-            height: 500px;
+            width: 100vw;
+            height: 97vh;
             display: flex;
             align-items: center;
             justify-content: center;
             box-shadow: 2px 21px 17px 13px rgba(0, 0, 0, 0.093);
-            margin-bottom: 85px;
-            
-            
-            
             
         }
         
-        #centralizar{
+        main{
             
             
             margin: auto;
@@ -43,15 +38,24 @@
             padding-top: 12px;
             border-radius: 10px;
             box-shadow: 2px 5px 20px 7px rgba(0, 0, 0, 0.063);
-            
-            
-            
+              
         }
 
         p{
             text-align:center ;
             margin-bottom: 1px;
             margin-top: 1px;
+            font-size: 13px;
+            color: hsla(217, 45%, 22%, 0.733);
+        }
+
+        h1{
+            color: hsl(218, 44%, 22%);
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+    
         }
 
         img{
@@ -71,7 +75,11 @@
             
         }
 
-        
+        footer{
+            text-align: center;
+            background-color:  hsl(212, 45%, 89%);
+
+        }
 
 
     </style>
@@ -80,24 +88,22 @@
 
 
     <div>
-        <div id="centralizar"><img src="images/image-qr-code.png"
-             alt="Qrcode">
+        <main><img src="images/image-qr-code.png"
+             alt="QR code to redirect you to Frontend Mentor" >
 
-                <p style="margin-top: 15px; font-weight: bolder;">
-                    Improve your front-end <br> skills by building projects</p>
+                <h1 style="; ">
+                    Improve your front-end <br> skills by building projects</h1>
 
-                    <span>
-                        <p style="margin-top: 15px;" >Scan the QR code to visit Frontend </p>
-                         <p>Mentor and take your coding skills to </p>
-                        <p>the next level</p>
-                    </span>
-            
-                
+                    
+                        <p style="margin-top: 15px;" >Scan the QR code to visit Frontend
+                         <br>Mentor and take your coding skills to
+                        <br>the next level</p>
+                    
         
-        </div>
+        </main>
     </div>
 
-    <footer class="attribution">
+    <footer>
         Desafio do <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Codificado por <a href="#">Luiz Vinicius Cassiano Cunha</a>.
     </footer>
